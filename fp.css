@@ -1,0 +1,132 @@
+#wrapper {background-color: #ffffff;
+		width: 75%;
+		margin-right: auto;
+		margin-left: auto;
+		min-width: 900px;
+		max-width: 1280px;
+		border-style: solid;}
+
+#bluebow {padding-right: 1.2em;
+		padding-bottom: 5em;
+		border: 5px #000000;
+		float: right;}
+
+body {background-color: #66ccff;}
+
+header {text-align: right;
+		text-shadow: 3px 2px 6px #666;
+		background-color: #ffcc99;
+		height: 150px;
+		background-image: url(bow_cartoon.jpg);
+		background-repeat: no-repeat;
+		padding-right: .5em;
+		border-bottom: groove;}
+
+header h2 {font-style: italic;}
+
+header h3 {font-style: italic;}
+
+nav {font-weight: bold;
+	text-align: center;
+	font-size: 1.4em;
+	text-shadow: .5px .5px .5px #666;}
+
+nav ul {list-style-type: none;
+		padding-left: 0;}
+
+nav a {padding: 10px;
+		font-weight: bold;}
+
+nav a:hover {color: #cc9933;}
+
+nav a:link {color: #000000;}
+
+nav a:visited {color: #003399;}
+
+main li {padding-top: .5em;
+		padding-bottom: .5em;
+		font-size: 110%;}
+
+main ul {height: auto;}
+
+main h3 {font-size: 135%;
+		text-decoration-line: underline;
+		text-shadow: .5px .5px .5px #666;
+		padding-left: .75em;
+		margin-bottom: 0px;}
+
+footer {text-align: center;}
+
+header, nav, main, footer {display: block;}
+
+table {width: 90%;
+	vertical-align: middle;
+	border-spacing: 0;}
+
+td, th {padding: 10px;}
+
+form {padding: 2em;}
+
+label {float: left;
+	display: block;
+	text-align: center;
+	width: 8em;
+	padding-right: 1em;}
+
+input, button, textarea {display: block;
+				margin-bottom: 1em;
+				margin-left: 11em;}
+
+fieldset.checks input {
+	float: left;
+	clear: left;
+	margin-right: 5px;
+	margin-left: 5em;
+	font-size: 18px;}
+
+.iframe-container {
+	position: relative;
+	width: 100%;
+	padding-bottom: 56.25%;
+	height: 0;
+}
+
+.iframe-container iframe {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+.iframe-container video {
+	position: absolute;
+	top: 0%;
+	left: 0%;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	font-family :Arial;
+}
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+#years {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+#arrows {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}
+
+#guess {
+	margin-bottom: 1em;
+	margin-left: 1em;
+}

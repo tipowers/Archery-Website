@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="fp.css">
+	<link rel="icon" type="image/ico" href="b_w_bow.jpg">
+	<meta charset="utf-8">
+	<meta name="viewport"
+	content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Ever wondered if you are the next Robin Hood? Find out everthing you need to know about the different bow types and how to shoot a traditional, Robin Hood style bow! Don't forget to bring arrows.">
+	<title>Contact Us</title>
+	<script src="modernizr.custom.05819.js"></script>
+</head>
+	<body>
+		<div id="wrapper">
+		<header>
+			<h1>Contact Us</h1>
+			<h2>Want To Know More?</h2>
+		</header>
+
+		<nav>
+			<a href="index.html">Home</a>&nbsp;
+			<a href="basics.html">Basics</a>&nbsp;
+			<a href="components.html">Bow Components</a>&nbsp;
+			<a href="shooting.html">Shooting</a>&nbsp;
+			<a href="security.html">Security</a>&nbsp;
+			<a href="count.html">Counter</a>&nbsp;
+			<a href="contact_us.html">Contact Us</a>&nbsp;
+		</nav><hr>
+
+		<main>
+			<h3>I am sure you have questions and that is quite alright!</h3>
+			<ul>
+				<li>Any questions or concerns you may have I would be more than happy to help out. Feel free to leave your information below and I will be sure to reply as soon as possible.</li>
+			</ul>
+		
+		<!--Form that asks for the users name, email, and a text box for questions-->
+		<form novalidate>
+			<label for="Name">*Name:</label>
+			<input type="text" id="Name">
+			<p id="nameError" class="errorMsg"></p>
+			<label for="email">*Email Address</label>
+            <input type="email" id="emailbox">
+            <p id="emailError" class="errorMsg"></p>
+			<label for="Questions">*Questions:</label>
+			<textarea id="Questions" rows="2" cols="20"></textarea>
+			<input type="submit" id="mySubmit" value="Submit">
+			<button type="reset" id="myReset" value="Reset Form">Reset Form</button>
+		</form>
+
+		<!--Random survey of user's favorite color(s)-->
+		<fieldset class="checks">
+            <legend><span><h2>Random: What is your favorite color?</h2></span></legend>
+            <input type="checkbox" id="red" value="red"/>
+            <label for="red" id="red">Red</label>
+            <input type="checkbox" id="blue" value="blue"/>
+            <label for="blue" id="blue">Blue</label>
+            <input type="checkbox" id="green" value="green"/>
+            <label for="green" id="green">Green</label>
+            <input type="checkbox" id="yellow" value="yellow"/>
+			<label for="yellow" id="yellow">Yellow</label>
+			<input type="checkbox" id="orange" value="orange"/>
+			<label for="orange" id="orange">Orange</label>
+			<input type="checkbox" id="indigo" value="indigo"/>
+			<label for="indigo" id="indigo">Indigo</label>
+			<input type="checkbox" id="violet" value="violet"/>
+            <label for="violet" id="violet">Violet</label>
+         </fieldset>
+		
+		<!--Survey asking user if they enjoy the website or not--> 
+		<form novalidate>
+			<legend><span><h2>Are you enjoying the site?</h2></span></legend>
+			<input type="radio" id="Thumbsup" /> Thumbs-up</input>
+			<input type="radio" id="Soso" /> Ehh...so-so</input>
+			<input type="radio" id="Thumbsdown" /> Thumbs-down</input><br><br>
+			<input type="submit" id = "mySubmit" value="Submit">
+			<button type="reset" id="myReset" value="Reset Form">Reset Survey</button>
+		</form>
+		
+		</main>
+
+		<script src="contact.js"></script>
+
+		<div id="map"></div>
+
+		<!--Create map that points to Anderson Ivy Tech Campus-->
+		<script>
+			function initMap() {
+				var options = {
+					zoom: 8,
+					center: {lat:40.052860,long:-85.669240}
+				}
+				var map = new
+				google.maps.Map(document.getElementById('map'), options);
+			}
+		</script>
+		<script async defer src="https://maps.googleapis.com/maps/api/js?&callback=initMap"></script>
+		
+		</div><br>
+
+		<footer>Copyright &copy; 2019 Contact Us<br>
+			<a href="emailto:tpowers22@ivytech.edu">tpowers22@ivytech.edu</a>
+		</footer>
+	</body>
+</html>
