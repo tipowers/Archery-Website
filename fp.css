@@ -1,17 +1,17 @@
-#wrapper {background-color: #ffffff;
+/* #wrapper {background-color: #ffffff;
 		width: 75%;
 		margin-right: auto;
 		margin-left: auto;
 		min-width: 900px;
 		max-width: 1280px;
-		border-style: solid;}
+		border-style: solid;} */
 
 #bluebow {padding-right: 1.2em;
 		padding-bottom: 5em;
 		border: 5px #000000;
 		float: right;}
 
-body {background-color: #66ccff;}
+body {background-color: #ffffff;}
 
 header {text-align: right;
 		text-shadow: 3px 2px 6px #666;
